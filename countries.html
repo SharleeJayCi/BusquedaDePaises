@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta  charset="UTF-8">
+        <link rel="icon" type="image/png" href="./images/worldIcon.png" />
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Paises del mundo</title>
+
+        <!------ CSS---------->         
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+        <link rel="stylesheet" href="./css/countries.css">      
+
+        <!------ JS ---------->        
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="./js/countries.js"></script>
+    </head>
+    <body id="body">
+        </br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">B&uacute;squeda de pa&iacute;ses</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class='col-lg-12'>
+                                <div class='col-lg-2 col-md-1 col-sm-12 col-xs-12'>
+                                    <label>B&uacute;squeda </label>
+                                </div>
+                                <div class='col-lg-9 col-md-10 col-sm-12 col-xs-12'>
+                                    <input type='text' name='search' id='search' datoParaBusqueda='' class='form-control'>
+                                    <div id="suggestions"></div>
+                                </div>                                    
+                                <div class='col-lg-1 col-md-1 col-sm-12 col-xs-12'>
+                                    <input type='button' name='botonBusqueda' id='botonBusqueda' class='btn btn-sm btn-success' value='Buscar'>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </body>
+    <div id="resultados" class="col-lg-12"></div> 
+</html>
