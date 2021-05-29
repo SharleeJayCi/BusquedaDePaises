@@ -2,6 +2,8 @@ Español:
 
 	Instrucciones de uso:
 
+	Ingresar a la ruta: http://localhost/Countries/countries.html
+	
 	Para realizar una búsqueda por país se pueden implementar dos métodos de búsqueda
 
 	1.-Escribiendo en el campo de busqueda cualquier cadena de texto de 4 caracteres o más y presionando buscar, con esto se mostrarán 
@@ -23,6 +25,8 @@ Español:
 
 English:
 	Instructions for use:
+	
+	Enter the route: http://localhost/Countries/countries.html
 
 	To perform a search by country, two search methods can be implemented
 
